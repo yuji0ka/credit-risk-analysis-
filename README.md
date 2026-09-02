@@ -43,6 +43,7 @@ Cada etapa está detalhada nos notebooks, com a justificativa das decisões toma
 ## 5. Principais insights de negócio (EDA)
 
 A base tem 1.000 clientes, com um desbalanceamento moderado entre as classes: 70% bons pagadores e 30% maus pagadores.
+
 ![Distribuição do risco de crédito](images/distribuicao_alvo.png)
 
 1. Status da conta corrente é o fator mais associado ao risco. Clientes sem conta corrente no banco apresentam, proporcionalmente, o menor risco entre todos os grupos — um resultado contraintuitivo à primeira vista, mas que faz sentido: quem não tem conta corrente também não tem esse tipo de histórico para o banco avaliar, tornando a leitura menos direta do que "menos saldo, mais risco".
