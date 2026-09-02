@@ -5,7 +5,7 @@
 ## 1. Descrição
 
 - Este é um projeto de Machine Learning ponta a ponta que usa Random Forest para prever o risco de crédito de clientes de um banco alemão. É um problema de aprendizado supervisionado de classificação binária, em que o alvo é 1 se o cliente é um mau pagador (inadimplente) e 0 se é um bom pagador.
-- O desenvolvimento foi dividido em dois notebooks, seguindo a estrutura CRISP-DM: `EDA_credit.ipynb`, com a definição do problema, coleta dos dados e análise exploratória; e `modelagem_v5.ipynb`, com o tratamento dos dados, comparação e ajuste de modelos, e avaliação final. As funções auxiliares de cada etapa foram organizadas em módulos Python separados (`EDA_utils.py` e `modelagem_utils.py`), importados nos notebooks, para manter o código mais limpo e reutilizável.
+- O desenvolvimento foi dividido em dois notebooks, seguindo a estrutura CRISP-DM: `EDA_credit.ipynb`, com a definição do problema, coleta dos dados e análise exploratória; e `modelagem.ipynb`, com o tratamento dos dados, comparação e ajuste de modelos, e avaliação final. As funções auxiliares de cada etapa foram organizadas em módulos Python separados (`EDA_utils.py` e `modelagem_utils.py`), importados nos notebooks, para manter o código mais limpo e reutilizável.
 
 ## 2. Tecnologias e ferramentas
 
@@ -113,9 +113,9 @@ source venv/bin/activate  # No Windows: venv\Scripts\activate
 pip install pandas numpy matplotlib seaborn scikit-learn category-encoders xgboost jupyter
 ```
 
-4. Garanta que o arquivo `german.data` está na mesma pasta dos notebooks (`EDA_credit.ipynb`, `modelagem_v5.ipynb`, `EDA_utils.py` e `modelagem_utils.py` também precisam estar todos juntos).
+4. Garanta que o arquivo `german.data` está na mesma pasta dos notebooks (`EDA_credit.ipynb`, `modelagem.ipynb`, `EDA_utils.py` e `modelagem_utils.py` também precisam estar todos juntos).
 
-5. Abra o Jupyter a partir dessa pasta e rode, na ordem: `EDA_credit.ipynb` e depois `modelagem_v5.ipynb`.
+5. Abra o Jupyter a partir dessa pasta e rode, na ordem: `EDA_credit.ipynb` e depois `modelagem.ipynb`.
 
 ## 9. Fonte dos dados
 
